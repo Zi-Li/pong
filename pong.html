@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <style>
+            @import url(style.css);
+            p.highlight {
+                color: red;
+            }
+            svg {
+                background-color: rgb(41, 41, 36);
+            }
+        </style>
+        <script src="./dist/pong.js"></script>
+    </head>
+    <body>
+        <h1>Pong</h1>
+        <svg id="canvas" width="900" height="600"/>
+        <p style="padding:6px;display:inline-block;background:rgb(230, 230, 230);margin:12px;border:2px solid blue">
+        <b>Instructions:</b><br>
+        Press W to move up, and S to move down.<br>
+        Hit the edges of the paddle to send the ball flying at high speeds.<br>
+        Gain rage by scoring points. Use rage to fire off special abilities. <br>
+        Press E to grow the paddle (cost 1 rage, lasts until next point). <br>
+        Press R to teleport to the ball's yPosition (cost 1 rage, instantaneous use). <br>
+        Hold down R to continue sliding in that direction.<br>
+        Press Q to shrink the opponent's paddle (cost 1 rage, lasts until next point).<br>
+        The first to seven points wins.<br>
+        After the game ends, press spacebar to restart.<br><br>
+        <b>Control Summary:</b><br>
+        W: move up<br>
+        S: move down<br>
+        E: paddle growth (cost 1 rage)<br>
+        R: teleport (cost 1 rage)<br>
+        Q: shrink ray (cost 1 rage)<br>
+        Spacebar: restart after game ends<br>
+        </p>
+        </body>
+    </body>
+</html>
